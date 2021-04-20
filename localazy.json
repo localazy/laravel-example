@@ -1,0 +1,15 @@
+{
+
+  "writeKey": "a8677580395569944198-e1b07c9ba958cc9f18dd31fd27a68992f78fe0951d123cdcef2ff62e7b32be15",
+  "readKey": "a8677580395569944198-c7a695b49895379812068583cf271409d27e7bb87ba187f7652c66ea956902fa",
+
+  "upload": {
+    "type": "php",
+    "files": "resources/lang/en/example.php"
+  },
+
+  "download": {
+    "files": "/resources/lang/${lang}/example.php"
+  }
+
+}
