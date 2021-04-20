@@ -24,22 +24,23 @@ Route::get('/', function () {
 
 - `example.blade.php`located in `\resources\views`:
 
-Just change the URL's in 
-```
- <a href="http://localhost:8000/example/pt"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png" width="60" height="40" title="Portuguese Flag" ></a>
- <a href="http://localhost:8000/example/cs"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png" width="60" height="40" title="Czech Flag" ></a>
- <a href="http://localhost:8000/example/en"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" width="60" height="40" title="UK Flag" ></a>
- <a href="http://localhost:8000/example/es"><img src="https://www.countryflags.com/wp-content/uploads/spain-flag-png-large.png" width="60" height="40" title="Spanish Flag" ></a>
-
-```
-with 
-
+Just change the `href` URL's in 
 ```
 
 <a href="/example/pt"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png" width="60" height="40" title="Portuguese Flag" ></a>
  <a href="/example/cs"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png" width="60" height="40" title="Czech Flag" ></a>
  <a href="/example/en"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" width="60" height="40" title="UK Flag" ></a>
  <a href="/example/es"><img src="https://www.countryflags.com/wp-content/uploads/spain-flag-png-large.png" width="60" height="40" title="Spanish Flag" ></a>
+
+```
+with 
+
+```
+
+ <a href="http://localhost:8000/example/pt"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/255px-Flag_of_Portugal.svg.png" width="60" height="40" title="Portuguese Flag" ></a>
+ <a href="http://localhost:8000/example/cs"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png" width="60" height="40" title="Czech Flag" ></a>
+ <a href="http://localhost:8000/example/en"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" width="60" height="40" title="UK Flag" ></a>
+ <a href="http://localhost:8000/example/es"><img src="https://www.countryflags.com/wp-content/uploads/spain-flag-png-large.png" width="60" height="40" title="Spanish Flag" ></a>
 
 ```
 
