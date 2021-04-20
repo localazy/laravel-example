@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return redirect('example');
+});
+
 
 Route::get('/example/{lang}', function ($lang) {
     App::setlocale($lang);
